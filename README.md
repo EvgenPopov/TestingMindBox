@@ -1,1 +1,3 @@
-# TestingMindBox
+# Тестовое задание для MindBox
+
+*Sql скрипт по второму заданию лежит в Square! под названием TestQuery
