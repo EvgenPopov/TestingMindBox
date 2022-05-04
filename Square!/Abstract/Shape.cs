@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Square_.Interfaces
+namespace Square_.Abstract
 {
     public abstract class Shape
     {
