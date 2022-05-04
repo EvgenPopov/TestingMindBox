@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[Categories]
+п»їCREATE TABLE [dbo].[Categories]
 (Id int not null PRIMARY KEY,
 CategoryName varchar(32) NULL)
 
@@ -31,7 +31,7 @@ INSERt INTO [dbo].CategoriesProducts VALUES (1,1),(1,2),(1,3),(2,1),(3,1),(5,1),
 
 GO
 
-Select Products.ProductName 'Имя продукта', Categories.CategoryName 'Имя категории' 
+Select Products.ProductName 'РРјСЏ РїСЂРѕРґСѓРєС‚Р°', Categories.CategoryName 'РРјСЏ РєР°С‚РµРіРѕСЂРёРё' 
 FROM Products
 LEFT OUTER JOIN dbo.CategoriesProducts as attachTable
 ON AttachTable.ProductsId = Products.Id
